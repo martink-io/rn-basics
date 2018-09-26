@@ -10,7 +10,8 @@ import FixedDimensionsBasics from './FixedDimensionsBasics';
 import FlexDimensionsBasics from './FlexDimensionsBasics';
 import FlexDirectionBasics from './FlexDirectionBasics';
 import JustifyContentBasics from './JustifyContentBasics';
+import AlignItemsBasics from './AlignItemsBasics';
 
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => JustifyContentBasics);
+AppRegistry.registerComponent(appName, () => AlignItemsBasics);
