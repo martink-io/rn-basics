@@ -9,7 +9,8 @@ import LotsOfStyles from './LotsOfStyles';
 import FixedDimensionsBasics from './FixedDimensionsBasics';
 import FlexDimensionsBasics from './FlexDimensionsBasics';
 import FlexDirectionBasics from './FlexDirectionBasics';
+import JustifyContentBasics from './JustifyContentBasics';
 
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => FlexDirectionBasics);
+AppRegistry.registerComponent(appName, () => JustifyContentBasics);
