@@ -2,6 +2,7 @@
 
 import {AppRegistry} from 'react-native';
 import App from './App';
+
 import Bananas from './Bananas';
 import LotsOfGreetings from './LotsOfGreetings';
 import Blink from './Blink';
@@ -12,7 +13,8 @@ import FlexDirectionBasics from './FlexDirectionBasics';
 import JustifyContentBasics from './JustifyContentBasics';
 import AlignItemsBasics from './AlignItemsBasics';
 import PizzaTranslator from './PizzaTranslator';
+import ButtonBasics from './ButtonBasics';
 
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => PizzaTranslator);
+AppRegistry.registerComponent(appName, () => ButtonBasics);
