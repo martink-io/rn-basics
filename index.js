@@ -17,6 +17,7 @@ import ButtonBasics from './ButtonBasics';
 import Touchables from './Touchables';
 import IScrolledDownAndWhatHappenedNextShockedMe from './IScrolledDownAndWhatHappenedNextShockedMe';
 import FlatListBasics from './FlatListBasics';
+import SectionListBasics from './SectionListBasics';
 
 import {name as appName} from './app.json';
 
