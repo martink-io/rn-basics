@@ -18,7 +18,8 @@ import Touchables from './Touchables';
 import IScrolledDownAndWhatHappenedNextShockedMe from './IScrolledDownAndWhatHappenedNextShockedMe';
 import FlatListBasics from './FlatListBasics';
 import SectionListBasics from './SectionListBasics';
+import FetchExample from './FetchExample';
 
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => SectionListBasics);
+AppRegistry.registerComponent(appName, () => FetchExample);
