@@ -11,7 +11,8 @@ import FlexDimensionsBasics from './FlexDimensionsBasics';
 import FlexDirectionBasics from './FlexDirectionBasics';
 import JustifyContentBasics from './JustifyContentBasics';
 import AlignItemsBasics from './AlignItemsBasics';
+import PizzaTranslator from './PizzaTranslator';
 
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => AlignItemsBasics);
+AppRegistry.registerComponent(appName, () => PizzaTranslator);
