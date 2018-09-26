@@ -14,7 +14,8 @@ import JustifyContentBasics from './JustifyContentBasics';
 import AlignItemsBasics from './AlignItemsBasics';
 import PizzaTranslator from './PizzaTranslator';
 import ButtonBasics from './ButtonBasics';
+import Touchables from './Touchables';
 
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => ButtonBasics);
+AppRegistry.registerComponent(appName, () => Touchables);
