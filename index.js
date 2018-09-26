@@ -6,6 +6,8 @@ import Bananas from './Bananas';
 import LotsOfGreetings from './LotsOfGreetings';
 import Blink from './Blink';
 import LotsOfStyles from './LotsOfStyles';
+import FixedDimensionsBasics from './FixedDimensionsBasics';
+
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => LotsOfStyles);
+AppRegistry.registerComponent(appName, () => FixedDimensionsBasics);
