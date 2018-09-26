@@ -16,7 +16,8 @@ import PizzaTranslator from './PizzaTranslator';
 import ButtonBasics from './ButtonBasics';
 import Touchables from './Touchables';
 import IScrolledDownAndWhatHappenedNextShockedMe from './IScrolledDownAndWhatHappenedNextShockedMe';
+import FlatListBasics from './FlatListBasics';
 
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => IScrolledDownAndWhatHappenedNextShockedMe);
+AppRegistry.registerComponent(appName, () => FlatListBasics);
