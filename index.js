@@ -21,4 +21,4 @@ import SectionListBasics from './SectionListBasics';
 
 import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => FlatListBasics);
+AppRegistry.registerComponent(appName, () => SectionListBasics);
